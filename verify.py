@@ -22,9 +22,9 @@ def cal_dis(coodi_):
         dis_ma.append(dis_i)
 
 
-f = open("map_5_1.txt")
-node_num = 5
-uav_num =3
+f = open("map_10_1.txt")
+node_num = 10
+uav_num =5
 #define uav_type
 #type_1
 uav_type_list = []
@@ -32,7 +32,7 @@ for i in range(2):
     uav_type_list.append(0)
 
 #type_2
-for i in range(1):
+for i in range(3):
     uav_type_list.append(1)
 
 v_s = 10
